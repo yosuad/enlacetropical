@@ -713,8 +713,6 @@ a {
     animation-duration: 3s;
 }
 
-/* temporal */
-
 .audio-player.paused::before {
    border: none;
    opacity: 0;  /* Elimina la sombra */
@@ -722,12 +720,6 @@ a {
     animation: none;  /* Detiene la animación */
    
 }
-
-
-
-
-/* Fin temporal */
-
 
 
 .ifr-video {
@@ -852,6 +844,10 @@ a {
 
 .link-white:hover {
     color: var(--accent-color);
+}
+
+.space{
+    padding-left: 16px;
 }
 
 .glass-effect {
@@ -981,3 +977,11 @@ a {
         width: 100%;
     }
 }
+
+/* Footer alignment */
+
+.justify-content-center {
+    justify-content: end !important;
+}
+
+/* end Footer alignment */
