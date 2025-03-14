@@ -978,10 +978,3 @@ a {
     }
 }
 
-/* Footer alignment */
-
-.justify-content-center {
-    justify-content: end !important;
-}
-
-/* end Footer alignment */
