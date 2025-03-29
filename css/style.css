@@ -258,7 +258,8 @@ a {
     color: var(--accent-color);
 }
 
-.nav-link.active {
+.nav-link.active,
+.link-white.active {
     color: var(--accent-color) !important;
 }
 

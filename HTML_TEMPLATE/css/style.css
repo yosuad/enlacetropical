@@ -972,3 +972,9 @@ a {
         width: 100%;
     }
 }
+
+/* Codigo nuevo */
+
+.border-bottom.border-danger.mb-3 {
+    border-color: yellow !important;
+}
