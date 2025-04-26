@@ -23,6 +23,7 @@
     <!-- FIN GOOGLE ANALYTICS -->
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/volume.css">
     <!-- END CSS -->
   </head>
   <body>
@@ -185,6 +186,19 @@
                         Tu navegador no soporta el elemento de audio.
                       </audio>
                     </button>
+                    <div class="control-box">                      
+                      <div class="volume-control">
+                        <div class="speker"><i class="fas fa-volume-off"></i></div>
+                        <div class="bars">
+                          <span class="bar"></span>
+                          <span class="bar"></span>
+                          <span class="bar"></span>
+                          <span class="bar"></span>
+                          <span class="bar"></span>
+                          <input id="volumeControl" type="range" min="0" max="1" step="0.2" value="1">
+                        </div>
+                      </div>
+                    </div>
                     <!-- Texto al lado del botón -->
                     <span class="font-1 ls-2 fw-bold">ESCUCHAR EMISORA</span>
                   </div>
