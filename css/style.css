@@ -392,6 +392,66 @@ a {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
+/* ESTILOS volumen*/
+
+input[type="range"] {
+    -webkit-appearance: none; /* Quita el estilo por defecto en Webkit (Chrome, Safari) */
+    width: 100px;
+    height: 6px;
+    background: #ccc; /* color del fondo de la barra */
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Estilo del "thumb" (el círculo que se mueve) */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background: var(--accent-color); /* color personalizado */
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .volume-control.volume-100 {
+    color: var(--accent-color);
+}
+
+
+  /* Para Firefox */
+  input[type="range"]::-moz-range-thumb {
+    height: 16px;
+    width: 16px;  
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Para Firefox (barra de fondo) */
+  input[type="range"]::-moz-range-track {   
+    height: 6px;
+    border-radius: 5px;
+  }
+  
+  /* Para Edge/IE */
+  input[type="range"]::-ms-thumb {
+    height: 16px;
+    width: 16px;   
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+    height: 6px;
+  }
+  
+  /* FIN ESTILOS volumen*/
+
 .overlay {
     height: 100%;
     width: 100%;
